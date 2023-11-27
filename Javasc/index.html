@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculateur du poids</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span>IMC</span>
+        </div>
+    <h1>Calculer Votre poids <span>idéale</span></h1>
+    <form action="">
+       <div class="inputs-group">
+        <label>Indiquez si vous etes Homme ou Femme</label><br>
+       <input type="radio" name="sex" id="sexh">Homme <br>
+       <input type="radio" name="sex" id="sexf">Femme 
+       </div>
+       <div class="inputs-group">
+        <label>Indiquez votre taille en centimétres :</label>
+        <input type="number" id="taille">
+       </div>
+       <button type="submit">Calculez</button>
+        <div class="resultat">
+            <p class="resultat-text">0</p>
+            <p class="resultat-info">En attente de validation</p>
+        </div>
+    </form>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
