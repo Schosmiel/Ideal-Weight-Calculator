@@ -2,14 +2,14 @@
 
 This project is a simple ideal weight calculator based on the user's height and gender. Users can enter their height and select their gender using radio buttons. After submitting the form, the ideal weight is calculated and displayed.
 
-![Ideal Weight Calculator](javasc/int.png)
+![Ideal Weight Calculator](Javasc/int.png)
 
 
-![Cas of men](javasc/h.png)
+![Case of men](Javasc/h.png)
 
 
 
-![Case of women](sjavasc/f.png)
+![Case of women](Javasc/f.png)
 
 ## Operation
 
